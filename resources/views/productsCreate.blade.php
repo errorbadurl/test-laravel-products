@@ -15,7 +15,7 @@
     </div>
     <div class="form-group">
         <label for="price">Price : </label>
-        <input type="number" class="form-control" placeholder="eg: 399.99" name="price" min="0" step=0.01 data-bind="value:price" required/>
+        <input type="number" class="form-control" placeholder="eg: 399.99" name="price" min="0" step="any" data-bind="value:price" required/>
     </div>
     <div class="text-center">
         <a class="btn btn-danger pull-left" href="{{ url('/') }}"><i class="glyphicon glyphicon-triangle-left"></i> Back</a>
