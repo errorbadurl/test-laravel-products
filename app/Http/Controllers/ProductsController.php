@@ -65,7 +65,7 @@ class ProductsController extends Controller
                     $product->price = $request->price;
                     $product->save();
 
-                    return redirect('/')->with('success', 'Product created successfully.');
+                    return redirect('/')->with('success', 'Product updated successfully.');
                 }
 
                 return view('productsUpdate', $product);
