@@ -1,6 +1,6 @@
 @extends('templates.index')
 
-@section('title', 'Create New Product')
+@section('title', 'Product - Update')
 
 @section('header')
 <h1>Product <small><span class="label label-info">Update</span></small></h1>
